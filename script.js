@@ -29,7 +29,7 @@ function time_of_day(client, date) {
   return "night";
 };
 
-var textContent = (`∞ Detour Services ∞\n\n\nWelcome to the Detour Bypass Official Gateway.\n\n\nWe are here to provide you with services to patch Riot Packman AntiCheat checks for your cheap, public platforms of choice.........\n\n\nThis is the only official website of Detour.\n\n\nThe current supported platforms are: ${platforms[0]}, ${platforms[1]}.........\n\n\nFor further communication needs you may contact me using my discord handle which is the following: sauce#9109.........\n\n\nHave a pleasant rest of your ${time_of_day(client_date, time(client_date)}......... \n\n\n\n\n\n\n\n\n\n\nsudo rm -rf logs.txt && sudo reboot  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n`).split("");
+var textContent = (`∞ Detour Services ∞\n\n\nWelcome to the Detour Bypass Official Gateway.\n\n\nWe are here to provide you with services to patch Riot Packman AntiCheat checks for your cheap, public platforms of choice.........\n\n\nThis is the only official website of Detour.\n\n\nThe current supported platforms are: ${platforms[0]}, ${platforms[1]}.........\n\n\nFor further communication needs you may contact me using my discord handle which is the following: sauce#9109.........\n\n\nHave a pleasant rest of your ${time_of_day(client_date, time(client_date))}......... \n\n\n\n\n\n\n\n\n\n\nsudo rm -rf logs.txt && sudo reboot  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n`).split("");
 
 
 function draw(time) {

@@ -1,2 +1,0 @@
-# detour
-## placeholder webpage
